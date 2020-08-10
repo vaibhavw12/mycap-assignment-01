@@ -1,0 +1,33 @@
+
+//task 1
+#include<iostream>
+using namespace std;
+
+int main(){
+    char c;
+    int i;
+    float f;
+    double d;
+    
+    cout<<"size of char : "<<sizeof(c)<<endl;
+    cout<<"size of int : "<<sizeof(i)<<endl;
+    cout<<"size of float : "<<sizeof(f)<<endl;
+    cout<<"size of double : "<<sizeof(d);
+    return 0;
+}
+
+
+
+//task 2
+#include<iostream>
+using namespace std;
+
+int main(){
+    float a,b,product;
+    a=5.55;
+    b=6.99;
+    product=a*b;
+    cout<<"product of "<<a<<" and "<<b<<" is "<<product;
+    return 0;
+    
+}
